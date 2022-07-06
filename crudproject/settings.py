@@ -34,7 +34,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
 
-     'django_jenkins',
+    #  'django_jenkins',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -136,4 +136,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 #     'django_jenkins.tasks.run_csslint',
 #     'django_jenkins.tasks.run_sloccount'
 # )
-JENKINS_TASKS=()
+# JENKINS_TASKS=()
