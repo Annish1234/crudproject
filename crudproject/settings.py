@@ -33,6 +33,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+
+     'django_jenkins',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -126,3 +128,12 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# JENKINS_TASKS = (
+#     'django_jenkins.tasks.run_pep8',
+#     'django_jenkins.tasks.run_pyflakes',
+#     'django_jenkins.tasks.run_jslint',
+#     'django_jenkins.tasks.run_csslint',
+#     'django_jenkins.tasks.run_sloccount'
+# )
+JENKINS_TASKS=()
